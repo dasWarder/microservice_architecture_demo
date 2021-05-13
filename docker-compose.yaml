@@ -1,0 +1,25 @@
+version: '3.1'
+services:
+  message-service:
+    container_name: docker-message-service
+    build:
+      context: docker-message-service
+      dockerfile: Dockerfile
+    image: dms:latest
+    ports:
+    - 1111:8887
+    networks:
+      spring-cloud-network:
+  product-service:
+    container_name: docker-product-service
+    build:
+      context: docker-product-service
+      dockerfile: Dockerfile
+    image: dps:latest
+    ports:
+    - 1111:8888
+    networks:
+      spring-cloud-network:
+networks:
+  spring-cloud-network:
+    driver: bridge

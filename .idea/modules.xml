@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/docker-message-service/docker-message-service.iml" filepath="$PROJECT_DIR$/docker-message-service/docker-message-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/docker-product-service/docker-product-service.iml" filepath="$PROJECT_DIR$/docker-product-service/docker-product-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-architecture.iml" filepath="$PROJECT_DIR$/microservice-architecture.iml" />
+    </modules>
+  </component>
+</project>
